@@ -20,7 +20,7 @@ W pierwszej fazie testów przystąpiono do analizy obciążenia środowiska siec
 - 1 000 000 pakietów ICMP z szybkością 1000 pakietów/s, każdy pakiet ma rozmiar 1470 bajtów.
 
 
-W kolejnej fazie testów weryfikowano czy wybrany zestaw reguł Snort jest w stanie właściwie zakwalifikować szkodliwy oraz nieszkodliwy ruch sieciowy. W tym teście pominięto fałszywie pozytywne alerty jako mało istotne w przypadku analizy skuteczności wykrywania szkodliwego ruchu sieciowego.
+W kolejnej fazie testów weryfikowano, czy wybrany zestaw reguł Snort jest w stanie właściwie zakwalifikować szkodliwy oraz nieszkodliwy ruch sieciowy. W tym teście pominięto fałszywie pozytywne alerty jako mało istotne w przypadku analizy skuteczności wykrywania szkodliwego ruchu sieciowego.
 
 Odsetek wyników fałszywie dodatnich (FPR) - Jest to prawdopodobieństwo, że IDS uruchomi alarm, gdy nie dojdzie do włamania. Mierzony za pomocą zawartości procentowej FPR w całości próbek. Wyzwala nadmierną liczbę fałszywych alarmów, gdy IDS niedokładnie rozróżnia ruch szkodliwy i nieszkodliwy.
 
